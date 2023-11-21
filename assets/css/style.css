@@ -102,3 +102,33 @@ main {
     color: white;
     font-size: 12px;
 }
+
+/* FOOTER STYLING */
+
+footer {
+    background-color: #1A1A1A;
+    height: 100px;
+    color: white;
+    padding-inline: 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer h6 {
+    font-size: 14px;
+}
+
+footer ul li {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+footer ul li svg {
+    width: 20px;
+    height: 20px;
+}

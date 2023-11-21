@@ -12,6 +12,8 @@ html {
     display: flex;
 }
 
+/* HEADER STYLING */
+
 header {
     padding-inline: 15%;
     background-color: #FF6801;
@@ -33,4 +35,69 @@ header ul li a {
 
 .logo {
     width: 100px;
+}
+
+/* MAIN SECTION STYLING */
+
+main {
+    flex-wrap: wrap;
+    padding-inline: 15%;
+    padding-block: 2%;
+    gap: 2%;
+}
+
+.card {
+    width: 30%;
+}
+
+.card figure {
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h6 {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.card p {
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.385);
+    font-size: 12px;
+}
+
+.price {
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.card>span {
+    text-decoration: none;
+    color: red;
+    font-size: 12px;
+}
+
+.card figure .label {
+    position: absolute;
+    bottom: 50px;
+    gap: 10px;
+}
+
+.card figure .eco {
+    background-color: green;
+    padding-block: 5px;
+    padding-inline: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.card figure .sale {
+    background-color: red;
+    padding-block: 5px;
+    padding-inline: 10px;
+    color: white;
+    font-size: 12px;
 }

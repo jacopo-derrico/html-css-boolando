@@ -47,7 +47,7 @@ main {
 }
 
 .card {
-    width: 30%;
+    width: calc(96%/3);
 }
 
 .card figure {

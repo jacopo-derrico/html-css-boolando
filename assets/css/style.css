@@ -20,6 +20,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-block: 15px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 
 header ul {
@@ -42,7 +46,8 @@ header ul li a {
 main {
     flex-wrap: wrap;
     padding-inline: 15%;
-    padding-block: 2%;
+    padding-bottom: 2%;
+    padding-top: 100px;
     gap: 2%;
 }
 

@@ -103,6 +103,22 @@ main {
     font-size: 12px;
 }
 
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.heart svg {
+    fill: black;
+}
+
+.heart:hover svg {
+    fill: red;
+}
+
 /* FOOTER STYLING */
 
 footer {
